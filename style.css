@@ -1,0 +1,80 @@
+*{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-color: black;
+   
+}
+
+.weather{
+    
+  
+     width: 450px; 
+    height: 600px; 
+    
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+    background-image: url('./images/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+            padding: 20px; 
+            border-radius: 20px;
+    
+    
+
+}
+
+input.transparent-input {
+    background-color: transparent;
+    border: 0px;
+}
+
+
+.search-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.refresh-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 15px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.details {
+   display: flex;
+   justify-content: space-between;
+    
+}
+.first{
+    margin-right: 100px;
+    font-weight: bold;
+
+}
+.second{
+    font-weight: bold;
+}
+.third{
+    margin-left: 0px;
+    font-weight: bold;
+}
